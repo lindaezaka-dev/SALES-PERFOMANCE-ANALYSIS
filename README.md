@@ -42,6 +42,8 @@ Specific objectives
 
 [google](https://google.com)
 
+![my dashboard](dashboard.png)
+
 
 
 
