@@ -1,3 +1,4 @@
+![sales analysis](sales analysis 2)
 # SALES PERFOMANCE ANALYSIS
 
 ## PROJECT OVERVIEW
@@ -43,7 +44,7 @@ Specific objectives
 [google](https://google.com)
 
 ![my dashboard](dashboard.png)
-![sales analysis](sales analysis 2)
+
 
 
 
