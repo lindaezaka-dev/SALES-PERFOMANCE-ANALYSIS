@@ -25,6 +25,22 @@ Specific objectives
 3.Analyze revenue by year, month, region, product type and salesperson.
 4.Present the results in clear charts that can be filtered by Year, Type, Salesperson and Region.
 5.Draw out key findings and make practical recommendations for management.
+- orange
+- mangoe
+- pawpaw
+
+**i am coming**
+*iam coming*
+***i am coming***
+
+~i have startes leaening~
+
+~~i am learning~~
+
+1.
+2.
+
+[google](https://google.com)
 
 
 
