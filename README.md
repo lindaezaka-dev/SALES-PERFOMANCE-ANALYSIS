@@ -43,6 +43,7 @@ Specific objectives
 [google](https://google.com)
 
 ![my dashboard](dashboard.png)
+![sales analysis](sales analysis 2)
 
 
 
