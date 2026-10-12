@@ -1,4 +1,4 @@
-![sales analysis](sales analysis 2)
+![salesanalysis](sales_analysis2.jpg)
 # SALES PERFOMANCE ANALYSIS
 
 ## PROJECT OVERVIEW
