@@ -59,10 +59,53 @@ Each salesperson works in only one region: Bishop in the West, Parker in the Nor
 Before any analysis, the data was checked for the common problems that distort results. The checks and outcomes are summarized below.
 
 **| Check | outcome |**
+
 | missing value | None. All 444 records are complete across all 8 fields.| 
-| Category spelling and consistency | Category spelling and consistency |	Clean. Year, Month, Type, Salesperson and Region each contain a small, consistent set of values with no spelling variants or stray spaces.
+
+| Category spelling and consistency | Category spelling and consistency |	Clean. Year, Month, Type, Salesperson and Region each contain a small, consistent set of values with no spelling variants or stray spaces.|
+
 | Data types | 	Correct. Year, Sales and Units are numeric; Order # is text so that identifiers such as 001 are not shortened to 1| 
+
 | Unique identifiers |	Every Order # is unique, so there is no repeated order number.|
+
+| Consistency between sheets | The raw data sheet and the SALES table match exactly, record for record.|
+
+| Sales values |	350 of the 444 Sales values are calculated in Excel as Units multiplied by a fixed rate (1.25, 1.4 or 1.5). The other 94 are typed values. Twelve records show an implied price per unit outside those three rates (for example, $4,666 for 5,623 units).| 
+
+| Near-duplicate records |	218 records are identical to another record in every field except Order #. These were flagged but kept, because they carry distinct order numbers and cannot be proven to be errors from the data alone.|
+
+No records were deleted or altered during cleaning, which is why the dashboard reports 444 transactions. Decisions on the duplicate and manually entered values are left to the data owner and are discussed under Limitations.
+
+
+
+## DATA PREPARATION
+
+Once the data was confirmed to be usable, it was prepared for analysis and reporting in the following steps.
+1.Converted the data into an Excel Table. The records were formatted as a table named sales. A table expands automatically when new rows are added, so every connected summary stays up to date.
+2.Protected the order identifiers. Order # was kept as text to preserve leading zeros.
+3.Applied currency formatting. The Sales column uses a dollar format with two decimal places for consistency across the workbook.
+4.Built the PivotTables. Five PivotTables were created from the sales table, each summing Sales by one dimension: Year, Month, Region, Type and Salesperson. Each is placed on its own sheet (YEARLY REVENUE, MONTHLY REVENUE, REGIONAL REVENUE, REVENUE BY TYPE and SALESPERSON REVENUE).
+5.Created the headline measures. Three formulas on the dashboard sheet total the Sales column, the Units column and the number of transactions.
+6.Added slicers. Four slicers (Year, Type, Salesperson and Region) were added so that users can filter the dashboard with a click.
+
+## DATASET DESCRIPTION
+
+The analysis summarizes revenue along each dimension and compares the contribution of each group. All shares are calculated against total sales of $3,254,576.95.
+## Overall performance
+
+| Measure |	Value |
+
+| Total sales |	$3,254,576.95 |
+
+| Total units | sold	2,322,594 |
+
+| Total transactions |	444 | 
+
+| Average sales per transaction |	$7,330.13 |
+
+
+
+
 
 
 
