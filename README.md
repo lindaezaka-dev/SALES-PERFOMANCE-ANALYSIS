@@ -33,8 +33,42 @@ Specific objectives
 
 The data is stored in the workbook EXCEL_REAL_DASHBOARD.xlsx. The “raw data” sheet holds the original records, and the “SALES” sheet holds an identical copy that has been formatted as an Excel Table named sales. This table is the single source for every PivotTable in the workbook.
 The dataset contains 444 records and 8 fields, covering 148 orders in each of the three years (2013, 2014 and 2015). Every record represents one order line.
-| FIELD | DATA TYPE | DESCRIPTION 
-|
+
+**|FIELD | DATA  TYPE | DESCRIPTION |** 
+
+| Year | number | Calendar of the year (2013, 2014, 2015) | 
+
+| month | text | month of the order ( seven month; January to may, November and December | 
+
+| type | text | product line ice cream, frozen yoghurt, popsicle or tasty treat | 
+
+| salesperson | text | person in charge; bishop, parker, lee, Pullen and Watson |
+
+| Region | text | Sales region: Central, North, South or West |
+
+| sales | Currency ($) | Value of the order line in US dollars.| 
+
+| unit | number | Number of units sold on the order line.
+
+| order | text | Order identifier from 001 to 444, stored as text so that leading zeros are kept.
+
+Each salesperson works in only one region: Bishop in the West, Parker in the North, Pullen in the South, and both Lee and Watson in the Central region. This means salesperson and region results overlap closely and should be read together.
+
+**DATA CLEANING**
+
+Before any analysis, the data was checked for the common problems that distort results. The checks and outcomes are summarized below.
+
+**| Check | outcome |**
+| missing value | None. All 444 records are complete across all 8 fields.| 
+| Category spelling and consistency | Category spelling and consistency |	Clean. Year, Month, Type, Salesperson and Region each contain a small, consistent set of values with no spelling variants or stray spaces.
+| Data types | 	Correct. Year, Sales and Units are numeric; Order # is text so that identifiers such as 001 are not shortened to 1| 
+| Unique identifiers |	Every Order # is unique, so there is no repeated order number.|
+
+
+
+
+
+
 
 - orange
 - mangoe
