@@ -170,6 +170,44 @@ April alone contributes 19.7% of all revenue and has the highest order count. Ja
 
 | Total |	$3,254,576.95 |	100.0% |	444 |	$7,330
 
+**Revenue by salesperson**
+
+| Salesperson |	Region |	Revenue |	Share |	Orders |	Avg
+Parker |	North |	$760,122.80 |	23.4% |	102 |	$7,452
+| Lee |	Central |	$740,578.40 |	22.8% |	96 |	$7,714
+| Watson |	Central |	$650,976.90 |	20.0%	 |72 |	$9,041
+| Bishop |	West |	$596,929.90 |	18.3% |	90 |	$6,633
+| Pullen | South |	$505,968.95 |	15.5% |	84 |	$6,023
+| Total |		$3,254,576.95 |	100.0% |	444 |	$7,330
+
+Watson has the fewest orders (72) but the highest average value per order ($9,041), which shows that ranking by total revenue alone does not tell the full story.
+
+**Dashboard**
+
+The dashboard sheet brings the analysis together on one page. It is designed so that a manager can understand the state of the business within a few seconds and then explore further using the filters.
+
+**Components**
+
+•Headline measures: Total Sales ($3,254,576.95), Total Units (2,322,594) and Total Transactions (444), shown at the top of the page.
+•Yearly Revenue: an area chart showing the revenue trend from 2013 to 2015.
+•Monthly Revenue: a line chart showing how revenue moves through the months.
+•Revenue by Salesperson, Product Type and Region: three bar charts for comparing groups.
+•Slicers: four filters (Year, Type, Salesperson and Region) that update the connected charts together.
+
+**How to use it**
+
+Click any button in a slicer to focus on that group; click again, or use the clear-filter icon, to return to the full view. For example, selecting “Ice Cream” and “2015” shows how that product performed in that year across all regions. Because the charts are PivotCharts, they refresh whenever the PivotTables are refreshed.
+
+**Dashboard charts**
+
+The charts below reproduce the visuals in the dashboard, using the same figures as the PivotTables.
+
+<img width="560" height="276" alt="image" src="https://github.com/user-attachments/assets/df2aaeb4-b25e-4b64-b7a0-fca279c90f40" />
+
+<img width="560" height="276" alt="image" src="https://github.com/user-attachments/assets/01155f02-af7e-45a0-8264-83d7875464e2" />
+
+
+
 
 
 
