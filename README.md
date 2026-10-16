@@ -140,6 +140,23 @@ Revenue grew strongly in 2014 and fell slightly in 2015. Units sold were identic
 
 | Total |	$3,254,576.95 |	100.0% |	444 |
 
+April alone contributes 19.7% of all revenue and has the highest order count. January to May together produce $2,526,892.25, compared with $727,684.70 for November and December combined. These totals add up three years of data and cover only the seven months available.
+
+**Revenue by region**
+
+|Region |	Revenue |	Share |	Orders | Avg per order
+
+|Central |	$1,391,555.30 |	42.8% |	168 |	$8,283
+
+| North |	$760,122.80 |	23.4% |	102 |	$7,452
+
+| West |	$596,929.90 |	18.3% |	90 |	$6,633
+
+| South |	$505,968.95 |	15.5% |	84 |	$6,023
+
+| Total |	$3,254,576.95 |	100.0% |	444 |	$7,330
+
+
 
 
 
