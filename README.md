@@ -70,7 +70,8 @@ Before any analysis, the data was checked for the common problems that distort r
 
 | Consistency between sheets | The raw data sheet and the SALES table match exactly, record for record.|
 
-| Sales values |	350 of the 444 Sales values are calculated in Excel as Units multiplied by a fixed rate (1.25, 1.4 or 1.5). The other 94 are typed values. Twelve records show an implied price per unit outside those three rates (for example, $4,666 for 5,623 units).| 
+| Sales values |
+|350 of the 444 Sales values are calculated in Excel as Units multiplied by a fixed rate (1.25, 1.4 or 1.5). The other 94 are typed values. Twelve records show an implied price per unit outside those three rates (for example, $4,666 for 5,623 units).| 
 
 | Near-duplicate records |	218 records are identical to another record in every field except Order #. These were flagged but kept, because they carry distinct order numbers and cannot be proven to be errors from the data alone.|
 
@@ -102,6 +103,9 @@ The analysis summarizes revenue along each dimension and compares the contributi
 | Total transactions |	444 | 
 
 | Average sales per transaction |	$7,330.13 |
+| Average units per transaction |	5,231
+| Average price per unit |	$1.40
+
 
 
 
