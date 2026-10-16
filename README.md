@@ -106,6 +106,17 @@ The analysis summarizes revenue along each dimension and compares the contributi
 | Average units per transaction |	5,231
 | Average price per unit |	$1.40
 
+**yearly revenue**
+
+**|Year |	Revenue |	Share |	Change vs prior year**
+
+| 2013 |	$1,008,662.75 |	31.0% |	–
+| 2014 |	$1,138,686.00 |	35.0% |	+12.9%
+| 2015 |	$1,107,228.20 |	34.0%	| –2.8%
+| Total |	$3,254,576.95 |	100.0% |	
+
+Revenue grew strongly in 2014 and fell slightly in 2015. Units sold were identical in all three years (774,198), so the movement in revenue comes entirely from the value per order line, not from selling more.
+
 
 
 
