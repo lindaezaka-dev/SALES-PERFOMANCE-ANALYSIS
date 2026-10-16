@@ -18,7 +18,8 @@ Without a clear and consistent view of performance, managers cannot easily:
 •track whether the business is growing, flat or declining over time.
 This project addresses that gap by organizing the raw records into a structured dataset and presenting the key results in a single, interactive dashboard.
 
-Objectives
+## OBJECTIVE
+
 To build an interactive Excel dashboard that summarizes sales performance for 2013 to 2015 and supports faster, evidence-based decisions.
 Specific objectives
 1.Review and prepare the raw sales data so that it is reliable and ready for analysis.
@@ -26,10 +27,18 @@ Specific objectives
 3.Analyze revenue by year, month, region, product type and salesperson.
 4.Present the results in clear charts that can be filtered by Year, Type, Salesperson and Region.
 5.Draw out key findings and make practical recommendations for management.
+5.Draw out key findings and make practical recommendations for management.
+
+## DATASET DESCRIPTION
+
+The data is stored in the workbook EXCEL_REAL_DASHBOARD.xlsx. The “raw data” sheet holds the original records, and the “SALES” sheet holds an identical copy that has been formatted as an Excel Table named sales. This table is the single source for every PivotTable in the workbook.
+The dataset contains 444 records and 8 fields, covering 148 orders in each of the three years (2013, 2014 and 2015). Every record represents one order line.
+| FIELD | DATA TYPE | DESCRIPTION 
+|
+
 - orange
 - mangoe
 - pawpaw
-
 **i am coming**
 *iam coming*
 ***i am coming***
