@@ -144,7 +144,7 @@ April alone contributes 19.7% of all revenue and has the highest order count. Ja
 
 **Revenue by region**
 
-|Region |	Revenue |	Share |	Orders | Avg per order
+| Region |	Revenue |	Share |	Orders | Avg per order
 
 |Central |	$1,391,555.30 |	42.8% |	168 |	$8,283
 
@@ -155,6 +155,23 @@ April alone contributes 19.7% of all revenue and has the highest order count. Ja
 | South |	$505,968.95 |	15.5% |	84 |	$6,023
 
 | Total |	$3,254,576.95 |	100.0% |	444 |	$7,330
+
+**Revenue by product type**
+
+| Product type |	Revenue |	Share |	Orders | Avg per order
+
+| Ice Cream |	$1,379,573.20 |	42.4% |	174 |	$7,929
+
+| Tasty Treats |	$840,113.65 |	25.8% |	102 |	$8,236
+
+| Frozen Yogurt |	$650,077.50 |	20.0% |	96 |	$6,772
+
+| Popsicles |	$384,812.60 |	11.8% |	72 |	$5,345
+
+| Total |	$3,254,576.95 |	100.0% |	444 |	$7,330
+
+
+
 
 
 
