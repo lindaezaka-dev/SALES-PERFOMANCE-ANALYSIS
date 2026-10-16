@@ -117,6 +117,18 @@ The analysis summarizes revenue along each dimension and compares the contributi
 
 Revenue grew strongly in 2014 and fell slightly in 2015. Units sold were identical in all three years (774,198), so the movement in revenue comes entirely from the value per order line, not from selling more.
 
+**Revenue by month**
+
+| Month |	Revenue |	Share |	Orders
+| January |	$513,336.00 |	15.8% |	60
+| February |	$521,344.75 |	16.0% |	54
+| March |	$423,204.70 |	13.0% |	60
+| April |	$640,494.40 |	19.7% |	90
+| May |	$428,512.40 |	13.2% |	66
+| November | $383,151.70 |	11.8% |	60
+| December |	$344,533.00 |	10.6% |	54
+| Total |	$3,254,576.95 |	100.0% |	444
+
 
 
 
